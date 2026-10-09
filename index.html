@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>لولي بيدز | شنط وعلب مناديل هاند ميد بالخرز</title>
+  <meta name="description" content="شنط وعلب مناديل مصنوعة يدويًا بالخرز واللؤلؤ بتصميم راقي. اطلبي من لولي بيدز.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a href="#top" class="brand">
+    <!-- 📷 صورة اللوجو: images/logo.png -->
+    <img src="images/logo.png" alt="" class="brand-logo" onerror="this.style.display='none'">
+    <span>لولي بيدز</span>
+  </a>
+  <button class="menu-btn" aria-label="القائمة" aria-expanded="false">☰</button>
+  <nav class="links" id="links">
+    <a href="#products">منتجاتنا</a>
+    <a href="#why">ليه لولي؟</a>
+    <a href="#how">إزاي أطلب؟</a>
+    <a href="#order" class="btn btn-sm">اطلبي دلوقتي</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- الهيرو -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="tag">مصنوعة يدويًا بخرز عالي الجودة</p>
+      <h1>تفاصيل صغيرة<br>بتلمّع جمالك</h1>
+      <p class="lead">شنط وعلب مناديل بالخرز واللؤلؤ، بنعملها بإيدينا بحب، عشان تبقى قطعة مميزة تكمّل أناقتك أو تهديها لحد بتحبيه.</p>
+      <div class="cta-row">
+        <a href="#products" class="btn">شوفي المنتجات</a>
+        <a href="#order" class="btn btn-ghost">اطلبي تصميمك</a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <!-- 📷 images/hero.jpg : بوستر شنطة Loly -->
+      <div class="frame"><img src="images/hero.jpg" alt="شنطة لولي اللؤلؤ هاند ميد"></div>
+    </div>
+  </section>
+
+  <div class="pearls" aria-hidden="true"></div>
+
+  <!-- المنتجات -->
+  <section class="section" id="products">
+    <h2>منتجاتنا</h2>
+    <p class="sub">كل قطعة بتتعمل بإيدينا، وممكن نغيّر الألوان والمقاس على ذوقك.</p>
+
+    <div class="filters" role="tablist">
+      <button class="chip active" data-filter="all">الكل</button>
+      <button class="chip" data-filter="bags">شنط</button>
+      <button class="chip" data-filter="tissue">علب مناديل</button>
+    </div>
+
+    <div class="grid" id="grid">
+      <article class="card" data-cat="bags">
+        <div class="thumb"><img src="images/products/bag-1.jpg" alt="شنطة لولي بالسلسلة" loading="lazy"></div>
+        <h3>شنطة لولي بالسلسلة</h3>
+        <p>لؤلؤ وخرز كريمي مع سلسلة دهبي وقفل مغناطيس.</p>
+        <button class="btn btn-sm order-btn" data-name="شنطة لولي بالسلسلة">اطلبيها</button>
+      </article>
+      <article class="card" data-cat="bags">
+        <div class="thumb"><img src="images/products/bag-2.jpg" alt="كلاتش الخرز الأسود" loading="lazy"></div>
+        <h3>كلاتش الخرز الأسود</h3>
+        <p>لمسة رقيقة لأي outfit، بتفاصيل تخطف.</p>
+        <button class="btn btn-sm order-btn" data-name="كلاتش الخرز الأسود">اطلبيه</button>
+      </article>
+      <article class="card" data-cat="bags">
+        <div class="thumb"><img src="images/products/bag-3.jpg" alt="شنطة الخرز الأسود" loading="lazy"></div>
+        <h3>شنطة الخرز الأسود</h3>
+        <p>إيد وسلسلة دهبي، شكل شيك للخروجات والمناسبات.</p>
+        <button class="btn btn-sm order-btn" data-name="شنطة الخرز الأسود">اطلبيها</button>
+      </article>
+      <article class="card" data-cat="bags">
+        <div class="thumb"><img src="images/products/bag-4.jpg" alt="هاند باج اللؤلؤ" loading="lazy"></div>
+        <h3>هاند باج اللؤلؤ</h3>
+        <p>خفيفة الوزن وسهلة الحمل، ومثالية كهدية.</p>
+        <button class="btn btn-sm order-btn" data-name="هاند باج اللؤلؤ">اطلبيها</button>
+      </article>
+      <article class="card" data-cat="tissue">
+        <div class="thumb"><img src="images/products/tissue-1.jpg" alt="بوكس مناديل اللؤلؤ والفراشة" loading="lazy"></div>
+        <h3>بوكس مناديل اللؤلؤ والفراشة</h3>
+        <p>لؤلؤ كريمي مع فراشة دهبي، بيناسب أي ديكور.</p>
+        <button class="btn btn-sm order-btn" data-name="بوكس مناديل اللؤلؤ والفراشة">اطلبيه</button>
+      </article>
+      <article class="card" data-cat="tissue">
+        <div class="thumb"><img src="images/products/tissue-2.jpg" alt="بوكس مناديل فضي" loading="lazy"></div>
+        <h3>بوكس مناديل فضي</h3>
+        <p>خرز معدني لامع بيدي لمعة فخمة للمكان.</p>
+        <button class="btn btn-sm order-btn" data-name="بوكس مناديل فضي">اطلبيه</button>
+      </article>
+      <article class="card" data-cat="tissue">
+        <div class="thumb"><img src="images/products/tissue-3.jpg" alt="بوكس مناديل بنفسجي" loading="lazy"></div>
+        <h3>بوكس مناديل بنفسجي</h3>
+        <p>ألوان رقيقة متدرجة بتضيف لمسة حلوة.</p>
+        <button class="btn btn-sm order-btn" data-name="بوكس مناديل بنفسجي">اطلبيه</button>
+      </article>
+    </div>
+  </section>
+
+  <!-- ليه لولي -->
+  <section class="section tint" id="why">
+    <h2>ليه لولي بيدز؟</h2>
+    <div class="why">
+      <div><span class="dot"></span><h3>هاند ميد بأعلى جودة</h3><p>كل حبة خرز بتتختار وبتتركب بإيد.</p></div>
+      <div><span class="dot"></span><h3>تصميم راقي وفريد</h3><p>قطعتك مش هتلاقيها عند حد تاني.</p></div>
+      <div><span class="dot"></span><h3>خفيفة وسهلة الحمل</h3><p>شيك ومريح طول اليوم.</p></div>
+      <div><span class="dot"></span><h3>مثالية للهدايا</h3><p>للمناسبات وأعياد الميلاد والخطوبة.</p></div>
+    </div>
+  </section>
+
+  <!-- إزاي أطلب -->
+  <section class="section" id="how">
+    <h2>إزاي أطلب؟</h2>
+    <ol class="steps">
+      <li><b>اختاري القطعة</b><span>من المنتجات أو ابعتي لنا فكرتك.</span></li>
+      <li><b>ابعتي لنا رسالة</b><span>على إنستجرام، وهنرد عليكي بالسعر والمدة.</span></li>
+      <li><b>استلمي طلبك</b><span>بنجهزه ونشحنه لحد بيتك.</span></li>
+    </ol>
+  </section>
+
+  <!-- الطلب -->
+  <section class="section order" id="order">
+    <h2>جاهزة تطلبي؟</h2>
+    <p class="sub">كلمينا وقوليلنا اللون والمقاس اللي نفسك فيه.</p>
+    <div class="cta-row center">
+      <a href="#" class="btn btn-light" id="dm-link" target="_blank" rel="noopener">ابعتي رسالة على إنستجرام</a>
+      <a href="#" class="btn btn-outline" id="ig-link" target="_blank" rel="noopener">شوفي صفحتنا</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="pearls" aria-hidden="true"></div>
+  <div class="credit" dir="ltr" lang="en">
+    <span>&copy; <span id="year"></span> Loly Beads. All rights reserved.</span>
+    <span class="sep" aria-hidden="true"></span>
+    <span>Designed &amp; developed by <a id="designer-link" href="#" target="_blank" rel="noopener">Your Name</a></span>
+    <span class="sep" aria-hidden="true"></span>
+    <a id="hire-link" href="#" target="_blank" rel="noopener">Portfolio &amp; contact</a>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
