@@ -30,7 +30,7 @@ chips.forEach(chip => chip.addEventListener('click', () => {
   chip.classList.add('active');
   const f = chip.dataset.filter;
   document.querySelectorAll('.card').forEach(card => {
-    card.classList.toggle('hide', f !== 'all' && card.dataset.cat !== f);
+    card.classList.toggle('hide', f !== 'all' && !card.dataset.cat.split(' ').includes(f));
   });
 }));
 
